@@ -1,0 +1,15 @@
+Skisæson tjekliste
+
+Sådan bruger du den:
+1. Pak zip-filen ud.
+2. Åbn index.html i din browser (dobbeltklik).
+
+Siden virker uden internet. Flueben og egne punkter gemmes i den browser, du åbner siden i.
+
+Filer:
+index.html      Selve tjeklisten
+app.js          Listens indhold og funktioner (punkterne står øverst i filen)
+styles.css      Udseende
+privatliv.html  Privatlivspolitik
+vilkaar.html    Vilkår og betingelser
+favicon.svg     Ikon til browserfanen
