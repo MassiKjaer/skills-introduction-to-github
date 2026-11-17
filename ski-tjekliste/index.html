@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Skisæson tjekliste</title>
+  <meta name="description" content="Pakkeliste til en hel skisæson: skiudstyr, skitøj, hverdagstøj, dokumenter, helbred og opgaver før afrejse.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html"><img src="favicon.svg" alt="">Skisæson tjekliste</a>
+      <nav>
+        <a href="privatliv.html">Privatliv</a>
+        <a href="vilkaar.html">Vilkår</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="intro">
+      <h1>Pakkeliste til en hel skisæson</h1>
+      <p id="intro-text">Alt fra ski og skitøj til dokumenter, helbred og praktiske opgaver før afrejse. Sæt flueben efterhånden som du pakker. Listen gemmes i din browser, så du kan lukke siden og fortsætte senere.</p>
+    </section>
+
+    <section class="summary" aria-live="polite">
+      <div class="summary-top">
+        <div class="summary-count"><strong id="done-count">0</strong> af <span id="total-count">0</span> pakket</div>
+        <div class="summary-count" id="percent">0 %</div>
+      </div>
+      <div class="bar" aria-hidden="true"><span id="bar-fill"></span></div>
+    </section>
+
+    <div class="toolbar">
+      <label class="toggle"><input type="checkbox" id="hide-done"> Skjul det, der er pakket</label>
+      <button type="button" class="btn" id="print-btn">Udskriv</button>
+      <button type="button" class="btn" id="export-btn">Download som tekst</button>
+      <button type="button" class="btn btn-danger" id="reset-btn">Nulstil flueben</button>
+    </div>
+
+    <ul class="jump" id="jump"></ul>
+
+    <div id="list"></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>Skisæson tjekliste</span>
+      <span><a href="privatliv.html">Privatlivspolitik</a> &middot; <a href="vilkaar.html">Vilkår og betingelser</a></span>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
